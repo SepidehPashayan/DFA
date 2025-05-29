@@ -24,11 +24,23 @@ class DFA:
         }
     def accept(self,input_s):
         s = self.start
+        path = [s]
+        transition = []
         for x in input_s:
+            if x not in self.alphabet:
+                print("string is not correct!")
+                return path,transition
             if(s,x) in self.transition:
-                s = self.transition[(s,x)]
+                next_s = self.transition[(s,x)]
+                transition.append((s,x,next_s))
+                s = next_s
+                path.append(s)
         return s in self.final
     
 dfa = DFA()
 input_string = input("please enter the string:").strip()
-print(dfa.accept(input_string))
+answer=str(dfa.accept(input_string))
+if answer=="True":
+    print("Accept")
+else :
+    print("Reject")
