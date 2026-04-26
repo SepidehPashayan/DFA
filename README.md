@@ -1,15 +1,18 @@
-#DFA
+💙 DFA
 
-#Use-Graphviz-pic
-in this commit a picture of the DFA is displayed in the folder in which the code is located
+🧡 Use-Graphviz-pic
 
-#Basic-DFA
-the main code without anything extra
+🤍 in this commit a picture of the DFA is displayed in the folder in which the code is located
 
-#Upgraded-DFA
-more capabilities added to the code
+💜 Basic-DFA
 
-#Simulated-DFA
-the code is simulated in the web format
+🤍 the main code without anything extra
 
-Sepideh Pashayan 💙
+💛 Upgraded-DFA
+
+🤍 more capabilities added to the code
+
+🤎 Simulated-DFA
+
+🤍the code is simulated in the web format
+
