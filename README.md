@@ -3,6 +3,10 @@
 > An interactive Deterministic Finite Automaton (DFA) simulator built with Python and Streamlit.  
 > Enter a binary string and watch the automaton trace its path through the state diagram in real time.
 
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 ---
 
 ## ✨ Features
@@ -46,7 +50,7 @@ The DFA is hardcoded with the following configuration:
 
 ```
 dfa-simulator/
-└── app.py      # DFA logic + Streamlit UI
+└── DFA.py      # DFA logic + Streamlit UI
 ```
 
 ---
@@ -67,7 +71,7 @@ pip install streamlit graphviz
 ### Run the app
 
 ```bash
-streamlit run app.py
+streamlit run DFA.py
 ```
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
